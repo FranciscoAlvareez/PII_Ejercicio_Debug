@@ -30,7 +30,7 @@ namespace WordsPhrases
         {
             get
             {
-                return this.text;
+                return this.text.ToString().Trim();
             }
 
             set
